@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia do JAPA</title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <header>
+    <div class="info">
+      <img class="logo" src="assets/Logo barbearia.png" alt="Logo Barbearia do JAPA">
+      <nav>
+        <a href="#produtos">Produtos</a>
+        <a href="#whatsapp">WhatsApp</a>
+        <a href="#instagram">Instagram</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="space">
+    <div class="title">
+      <h1>Barbearia do JAPA</h1>
+    </div>
+    <div class="esc">
+      <h2>Marque seu horário aqui</h2>
+      <form id="agendamento-form" action="/agendar" method="POST">
+        <div class="form-group">
+          <label for="name">Informe seu nome</label>
+          <input class="op" type="text" name="name" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="time">Qual o melhor horário?</label>
+          <input class="op" type="time" name="time" id="time" required>
+        </div>
+        <div class="form-group">
+          <label for="option">Opções de serviço</label>
+          <select class="op" id="option" name="option" required>
+            <option value="" disabled selected>Escolha um serviço</option>
+            <option value="Corte social">Corte social</option>
+            <option value="Degradê">Degradê</option>
+            <option value="Desenhar a barba">Desenhar a barba</option>
+            <option value="Sobrancelha">Sobrancelha</option>
+            <option value="Pezinho">Pezinho</option>
+            <option value="Raspar a barba">Raspar a barba</option>
+          </select>
+        </div>
+        <div>
+          <button class="botao" type="submit" class="btn-agendar">Agendar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <img class="logo" src="assets/Logo barbearia.png" alt="Logo Barbearia do JAPA">
+    <div class="footer-links">
+      <a href="#privacidade">Política de Privacidade</a>
+      <a href="#termos">Termos de Uso</a>
+      <a href="#contato">Contato</a>
+    </div>
+    <p>&copy; 2024 Barbearia do JAPA. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
