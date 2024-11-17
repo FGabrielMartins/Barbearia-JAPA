@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 3000; // Usa a porta do Railway ou 3000 como padrão
+const PORT = process.env.PORT || 8080; // Usa a porta do Railway ou 3000 como padrão
 
 // Middleware para interpretar o corpo da requisição (formulários)
 app.use(express.urlencoded({ extended: true }));
