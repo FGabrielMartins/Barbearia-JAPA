@@ -1,17 +1,17 @@
 {
   "name": "barbeariajapa",
   "version": "1.0.0",
+  "description": "Aplicação de agendamento da Barbearia do JAPA",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Seu Nome",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "body-parser": "^1.20.3",
     "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
