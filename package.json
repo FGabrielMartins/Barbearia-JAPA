@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Seu Nome",
+  "author": "Gabriel",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.1"
