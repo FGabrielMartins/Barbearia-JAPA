@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 // Porta dinâmica fornecida pelo Railway ou 8080 como padrão local
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 // Middleware para interpretar o corpo da requisição (formulários)
 app.use(express.urlencoded({ extended: true }));
